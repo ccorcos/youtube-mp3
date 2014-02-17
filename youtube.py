@@ -19,4 +19,4 @@ links = links.lstrip().rstrip().split(' ')
 
 [os.system('open http://youtubeinmp3.com/fetch/?video='+ l) for l in links]
 
-open http://youtubeinmp3.com/fetch/?video=http://www.youtube.com/watch?v=KVYup3Qwh8Q
+#open http://youtubeinmp3.com/fetch/?video=http://www.youtube.com/watch?v=KVYup3Qwh8Q
