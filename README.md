@@ -1,7 +1,13 @@
-This script uses a 3rd party api to download mp3's from youtube
+# Youtube MP3 Downloader
 
-To compile into a commandline tool
+This is a simple commandline app that uses an external service to download mp3's from youtube.
 
-pip install pyinstaller
-pyi-makespec --onefile youtube-cmdline.py 
-pyi-build youtube-cmdline.spec 
+## Getting Started
+
+This program depends on `eyeD3` to manage the mp3 metadata:
+
+    pip install eyeD3
+
+Then just run the program:
+
+    python youtube-mp3.py
